@@ -4,7 +4,7 @@ All notable changes to `angular4-paystack` will be documented in this file
 
 ## 3.0.2 - 18-08-21
 ### Fixed
-  - Make angular v8 - v12 peer dependencies
+  - Make angular v8 - v14 peer dependencies
 
 ## 3.0.1 - 12-07-21
 ### Fixed
@@ -22,13 +22,13 @@ All notable changes to `angular4-paystack` will be documented in this file
 
 ## 2.4.0 - 15-10-20
 ### Added
-  - Upgraded to angular v8  
+  - Upgraded to angular v8
 ### Bug Fixes
-- Supports all payment channels when none is passes  
+- Supports all payment channels when none is passes
 
 ## 2.3.3 - 20-01-19
 ### Bug Fixes
-- Nows upports dynamically updating paymentOptions (eg. Payment Ref #11)  
+- Nows upports dynamically updating paymentOptions (eg. Payment Ref #11)
 
 ## 2.3.0 - 13-12-18
 ### Added

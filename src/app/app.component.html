@@ -20,7 +20,7 @@
       angular4-paystack
       [paystackOptions]="options"
       (onClose)="paymentCancel()"
-      (paymentInit)="paymentInit()"      
+      (paymentInit)="paymentInit()"
       (callback)="paymentDone($event)"
       [class]="'btn btn-primary btn-lg'"
     >
@@ -39,7 +39,7 @@
     <angular4-paystack-embed
       angular4-paystack
       [email]="'mailexample@mail.com'"
-      (paymentInit)="paymentInit()"      
+      (paymentInit)="paymentInit()"
       [amount]="'5000000'" [ref]="tRef" (onClose)="paymentCancel()" (callback)="paymentDone($event)"
       [class]="'btn btn-primary btn-lg'" [channels]="['card']"
     ></angular4-paystack-embed>

@@ -22,13 +22,13 @@ All notable changes to `angular4-paystack` will be documented in this file
 
 ## 2.4.0 - 15-10-20
 ### Added
-  - Upgraded to angular v8  
+  - Upgraded to angular v8
 ### Bug Fixes
-- Supports all payment channels when none is passes  
+- Supports all payment channels when none is passes
 
 ## 2.3.3 - 20-01-19
 ### Bug Fixes
-- Nows upports dynamically updating paymentOptions (eg. Payment Ref #11)  
+- Nows upports dynamically updating paymentOptions (eg. Payment Ref #11)
 
 ## 2.3.0 - 13-12-18
 ### Added
@@ -41,7 +41,7 @@ All notable changes to `angular4-paystack` will be documented in this file
 
 ## 2.1.0 - 2018-04-17
 ### Added
-- Angular4Paystack directive
+- ngPaystack directive
 ### Bug Fixes
 - Fixed issue when more than one popup shows when user clicks on button more than once
 
