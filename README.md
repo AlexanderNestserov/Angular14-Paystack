@@ -1,4 +1,4 @@
-# angular4-paystack
+# ANGULAR4-PAYSTACK
 
 > This is an angular module that abstracts the complexity of making paystack payments with Angular2+.
 
@@ -15,12 +15,12 @@ In your `app.module.ts` or any module where the component or directive would be 
 ```ts
 import { NgModule } from '@angular/core';
 
-import { ngPaystackModule } from 'angular4-paystack';
+import { Angular4PaystackModule } from 'angular4-paystack';
 ...
 
 @NgModule({
   imports: [
-    ngPaystackModule.forRoot('pk_test_xxxxxxxxxxxxxxxxxxxxxxxx'),
+    Angular4PaystackModule.forRoot('pk_test_xxxxxxxxxxxxxxxxxxxxxxxx'),
   ]
 })
 
@@ -143,7 +143,7 @@ Also, you can pass in a key in the component and the directive, in such situatio
 ```ts
 @NgModule({
   imports: [
-    ngPaystackModule.forRoot('pk_test_1'),
+    Angular4PaystackModule.forRoot('pk_test_1'),
   ]
 })
 ```
@@ -198,10 +198,10 @@ Then `pk_test_2` would be used instead
 Please feel free to fork this package and contribute by submitting a pull request to enhance the functionalities.
 
 Two projects exist in this repository
-- The `angular4-paystack` package: [`./projects/angular4-paystack`](./projects/angular4-paystack)
+- The `Angular4-paystack` package: [`./projects/angular4-paystack`](./projects/angular4-paystack)
 - The demo: [`./src`](./src)
 
-### angular4-paystack project
+### Angular4-paystack project
 - Found at `./projects/angular4-paystack/src/lib`.
 - The artifacts ([README.md](./projects/angular4-paystack/README.md), [CHANGELOG.md](./projects/angular4-paystack/CHANGELOG.md) and [LICENSE.md](./projects/angular4-paystack/LICENSE.md)) in the `./projects/angular4-paystack/` folder are overwritten on [build](https://github.com/ashinzekene/angular4-paystack/blob/master/package.json#L7)
 - Running `npm run build` on the main folder builds this project by [default](https://github.com/ashinzekene/angular4-paystack/blob/master/angular.json#L155)
